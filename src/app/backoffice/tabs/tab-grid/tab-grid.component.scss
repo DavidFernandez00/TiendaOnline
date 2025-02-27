@@ -1,0 +1,20 @@
+.contenedorPadre {
+    position: absolute;
+    width: 400px;
+    top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 8px;
+    grid-template-rows: repeat(3, 60px);
+}
+
+.div2 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+.div3 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
